@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorBlue</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.ToolbarTheme" parent="Base.V7.Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/AppTheme.TitleBar</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.TitleBar">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize" tools:ignore="PxUsage">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AppTheme.ActionMenu">
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:textSize" tools:ignore="PxUsage">16sp</item>
+    </style>
+
+</resources>
